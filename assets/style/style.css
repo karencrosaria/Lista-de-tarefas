@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;    
+    background-color: rgb(213, 213, 216);
+}
+.title{
+    font-size: 28px;
+    color: rgb(9, 9, 117);
+    margin-top: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.lista{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+:placeholder-shown{
+    color: rgb(95, 117, 238);
+}
+#tarefa-input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(9,9, 117);
+}
+button{
+    border-radius: 8px;
+    padding: 5px 8px;
+    background-color:rgb(9, 9, 117) ;
+    color: rgb(200, 200, 207);
+}
+#tarefas{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-bottom: 12px;
+    color: rgb(9, 9, 117);
+}
+.tarefa-item{
+    display: flex;
+    align-items: left;
+    margin-bottom: 12px;
+}
+:checked + label {
+    text-decoration: line-through;
+    color: rgb(168, 161, 161);
+}
+#delete{
+    align-items: center;
+    background-color: rgb(192, 7, 7);
+}
