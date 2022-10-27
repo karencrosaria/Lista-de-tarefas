@@ -3,8 +3,8 @@ const listaTarefas = document.getElementById('tarefas');
 const btnDelete = document.querySelector('#delete')
 
 btnDelete.onclick =() => { 
-    tarefas.innerHTML = ""
-    alert('lista deletada!');
+    listaTarefas.innerHTML = ""
+    ;
 }
 
 form.onsubmit = function (e) {
